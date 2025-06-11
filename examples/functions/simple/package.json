@@ -1,0 +1,20 @@
+{
+  "name": "simple",
+  "type": "module",
+  "main": "index.ts",
+  "dependencies": {
+    "@sanity/functions": "1.0.2"
+  },
+  "blueprintResourceConfig": {
+    "type": "sanity.function.document",
+    "name": "simple",
+    "src": "functions/simple",
+    "memory": 2,
+    "timeout": 30,
+    "event": {
+      "on": ["publish"],
+      "filter": "",
+      "projection": ""
+    }
+  }
+}

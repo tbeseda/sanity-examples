@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@sanity/blueprints": "0.0.1",
+    "@sanity/runtime-cli": "^8.0.3"
+  }
+}
