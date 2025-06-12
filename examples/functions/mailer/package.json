@@ -1,5 +1,5 @@
 {
-  "name": "simple",
+  "name": "mailer",
   "type": "module",
   "main": "index.ts",
   "dependencies": {
@@ -7,8 +7,8 @@
   },
   "blueprintResourceConfig": {
     "type": "sanity.function.document",
-    "name": "simple",
-    "src": "functions/simple",
+    "name": "mailer",
+    "src": "functions/mailer",
     "memory": 2,
     "timeout": 30,
     "event": {
