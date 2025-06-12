@@ -6,15 +6,11 @@
     "@sanity/functions": "1.0.2"
   },
   "blueprintResourceItem": {
-    "type": "sanity.function.document",
     "name": "mailer",
-    "src": "functions/mailer",
     "memory": 2,
     "timeout": 30,
-    "event": {
-      "on": ["publish"],
-      "filter": "",
-      "projection": ""
-    }
+    "on": ["publish"],
+    "filter": "",
+    "projection": ""
   }
 }
