@@ -5,6 +5,7 @@
   "dependencies": {
     "@sanity/functions": "1.0.2"
   },
+  "exampleInstructions": "Really. Check out the README.md for this example 👁️",
   "blueprintResourceItem": {
     "name": "mailer",
     "memory": 2,
